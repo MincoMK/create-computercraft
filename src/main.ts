@@ -15,6 +15,7 @@ async function main() {
 
   const projectName = await text({
     message: "What is your project name?",
+    initialValue: process.argv?.[2] ?? undefined,
     validate(value) {
       if (!validate(value))
         return "Project name should satisfy NPM package name rules.";
