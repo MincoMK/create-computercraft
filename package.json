@@ -1,7 +1,10 @@
 {
   "name": "create-computercraft",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
+  "files": [
+    "./dist/**/*.js"
+  ],
   "bin": {
     "create-computercraft": "dist/main.js"
   },
