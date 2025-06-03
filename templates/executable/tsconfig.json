@@ -13,6 +13,7 @@
   "tstl": {
     "luaTarget": "5.4",
     "noHeader": true,
+    "noImplicitSelf": true,
     "luaBundle": "bundle.lua",
     "luaBundleEntry": "src/main.ts"
   },
