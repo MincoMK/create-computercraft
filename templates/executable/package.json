@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.27.0",
-    "computercraft-ts": "^1.0.0",
+    "computercraft-ts": "latest",
     "eslint": "^9.27.0",
     "globals": "^16.2.0",
     "luamin": "^1.0.4",
