@@ -1,13 +1,13 @@
 {
   "name": "create-computercraft",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "files": [
     "./dist/**/*.js",
     "./templates/**/*"
   ],
   "bin": {
-    "create-computercraft": "node dist/main.js"
+    "create-computercraft": "dist/main.js"
   },
   "scripts": {
     "build": "tsc",
