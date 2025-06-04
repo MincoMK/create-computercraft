@@ -4,11 +4,12 @@
     "target": "ESNext",
     "lib": ["ESNext"],
     "moduleResolution": "Node",
-    "types": ["computercraft-ts"],
+    "types": ["computercraft-ts", "@typescript-to-lua/language-extensions"],
     "strict": true,
     "declaration": true,
     "outDir": "dist/",
-    "rootDir": "src/"
+    "rootDir": "src/",
+    "noImplicitAny": false
   },
   "tstl": {
     "luaTarget": "JIT",

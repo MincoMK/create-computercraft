@@ -3,7 +3,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["ESNext"],
-    "types": ["computercraft-ts"],
+    "types": ["computercraft-ts", "@typescript-to-lua/language-extensions"],
     "moduleResolution": "Node",
     "strict": true,
     "plugins": [{ "name": "typescript-tstl-plugin" }],
